@@ -8,9 +8,7 @@ const noteSchema = new Schema(
         required: true
     },
     author: String,
-    createdAt: {
-        type: Date,
-        default:Date.now}    
+    date : Date    
     },
     {
     timestamps: true}
